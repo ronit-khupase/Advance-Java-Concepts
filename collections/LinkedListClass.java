@@ -45,13 +45,51 @@ public class LinkedListClass {
         {
             int i = 0, j = 0;
             while (i < list1.size() && j < list2.size()){
-                
+                if(list1.get(i) <= list2.get(j)){
+                    merged.add(list1.get(i));
+                    i++;
+                }
+                else {
+                    merged.add(list2.get(j));
+                    j++;
+                }
+            }
+            while (i < list1.size()){
+                merged.addLast(list1.get(i++));
+            }
+            while (j < list2.size()){
+                merged.addLast(list2.get(j++));
+            }
+
+            System.out.println("Merged LinkedList is : "+merged);
+        }
+
+        System.out.println("8. Check if LinkedList is palindrome.");
+        list = new LinkedList<>(Arrays.asList(10,20,30,20,10));
+        boolean palindrome = true;
+        for (int i = 0; i < list.size()/2; i++) {
+            if(list.get(i) != list.get(list.size()-i-1)){
+                System.out.println("LinkedList is Not Palindrome!");
+                palindrome = false;
+                break;
             }
         }
-    }
+        if(palindrome){
+            System.out.println("LinkedList is Palindrome!");
+        }
 
-//
-//8. Check if LinkedList is palindrome.
-//9. Remove duplicates from LinkedList.
-//10. Convert ArrayList to LinkedList and vice versa.
+        System.out.println("9. Remove duplicates from LinkedList.");
+        LinkedHashSet<Integer> set = new LinkedHashSet<>(list);
+        list.clear();
+        list.addAll(set);
+        System.out.println("Linked List After Removing Duplicates :"+list);
+
+        System.out.println("10. Convert ArrayList to LinkedList and vice versa.");
+        list = new LinkedList<>(Arrays.asList(10,20,30));
+        List<Integer> array = new ArrayList<>(list);
+        System.out.println("LinkedList as ArrayList: " +array);
+
+        list = new LinkedList<>(array);
+        System.out.println("ArrayList as LinkedList : "+list);
+    }
 }
