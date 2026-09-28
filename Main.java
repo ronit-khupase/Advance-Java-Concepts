@@ -1,7 +1,4 @@
-import collections.ArrayListClass;
-import collections.HashSetClass;
-import collections.LinkedHashSetClass;
-import collections.LinkedListClass;
+import collections.*;
 
 void main() {
 //    ArrayListClass arrayListClass = new ArrayListClass();
@@ -10,6 +7,10 @@ void main() {
 //    linkedListClass.solutions();
 //    HashSetClass hashSetClass = new HashSetClass();
 //    hashSetClass.solutions();
-    LinkedHashSetClass linkedHashsetClass = new LinkedHashSetClass();
-    linkedHashsetClass.solutions();
+//    LinkedHashSetClass linkedHashsetClass = new LinkedHashSetClass();
+//    linkedHashsetClass.solutions();
+//    TreeSetClass treeSetClass = new TreeSetClass();
+//    treeSetClass.solutions();
+    HashMapClass hashMapClass = new HashMapClass();
+    hashMapClass.solutions();
 }
