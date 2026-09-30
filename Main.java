@@ -11,6 +11,8 @@ void main() {
 //    linkedHashsetClass.solutions();
 //    TreeSetClass treeSetClass = new TreeSetClass();
 //    treeSetClass.solutions();
-    HashMapClass hashMapClass = new HashMapClass();
-    hashMapClass.solutions();
+//    HashMapClass hashMapClass = new HashMapClass();
+//    hashMapClass.solutions();
+//    LinkedHashMapClass linkedHashMapClass = new LinkedHashMapClass();
+//    linkedHashMapClass.solutions();
 }
