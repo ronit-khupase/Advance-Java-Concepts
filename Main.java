@@ -15,4 +15,6 @@ void main() {
     hashMapClass.solutions();
     LinkedHashMapClass linkedHashMapClass = new LinkedHashMapClass();
     linkedHashMapClass.solutions();
+    TreeMapClass treeMapClass = new TreeMapClass();
+    treeMapClass.solutions();
 }

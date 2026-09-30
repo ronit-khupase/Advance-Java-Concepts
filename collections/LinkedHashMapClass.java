@@ -91,6 +91,5 @@ public class LinkedHashMapClass {
         System.out.println("10. Compare HashMap and LinkedHashMap ordering.");
         System.out.println("HashMap : Random Order \nLinkedHashMap : Insertion Order");
 
-//
     }
 }
