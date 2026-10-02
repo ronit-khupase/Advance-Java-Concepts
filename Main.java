@@ -17,4 +17,8 @@ void main() {
     linkedHashMapClass.solutions();
     TreeMapClass treeMapClass = new TreeMapClass();
     treeMapClass.solutions();
+    PriorityQueueClass priorityQueueClass = new PriorityQueueClass();
+    priorityQueueClass.solutions();
+    ArrayDequeClass arrayDequeClass = new ArrayDequeClass();
+    arrayDequeClass.solutions();
 }
