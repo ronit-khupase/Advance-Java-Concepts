@@ -1,4 +1,5 @@
 import collections.*;
+import exceptionhandling.ExceptionHandlingQuestions;
 
 void main() {
     ArrayListClass arrayListClass = new ArrayListClass();
@@ -21,4 +22,7 @@ void main() {
     priorityQueueClass.solutions();
     ArrayDequeClass arrayDequeClass = new ArrayDequeClass();
     arrayDequeClass.solutions();
+
+    ExceptionHandlingQuestions exceptionHandlingQuestions = new ExceptionHandlingQuestions();
+    exceptionHandlingQuestions.solutions();
 }
