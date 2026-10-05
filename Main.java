@@ -1,5 +1,6 @@
 import collections.*;
 import exceptionhandling.ExceptionHandlingQuestions;
+import lambda.LambdaPractice;
 
 void main() {
     ArrayListClass arrayListClass = new ArrayListClass();
@@ -25,4 +26,7 @@ void main() {
 
     ExceptionHandlingQuestions exceptionHandlingQuestions = new ExceptionHandlingQuestions();
     exceptionHandlingQuestions.solutions();
+
+    LambdaPractice lambdaPractice = new LambdaPractice();
+    lambdaPractice.solutions();
 }
