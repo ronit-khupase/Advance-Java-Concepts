@@ -115,43 +115,6 @@ modules.forEach(PracticeModule::run);
 
 ---
 
-## Future Topics
-
-### Core Java
-
-- [ ] Generics
-- [ ] File Handling (java.io, java.nio)
-- [ ] JDBC
-- [ ] Annotations
-- [ ] Reflection API
-- [ ] Networking (Socket Programming)
-
-### Modern Java
-
-- [ ] Optional Class
-- [ ] Java Date & Time API (java.time)
-
-### Concurrency
-
-- [ ] Multithreading
-- [ ] Synchronization
-- [ ] ExecutorService
-- [ ] Callable & Future
-- [ ] CompletableFuture
-
-### Software Design
-
-- [ ] SOLID Principles
-- [ ] Design Patterns
-
-### Projects
-
-- [ ] Student Management System
-- [ ] Library Management System
-- [ ] Banking Management System
-
----
-
 ## Author
 
 **Ronit Khupase**
