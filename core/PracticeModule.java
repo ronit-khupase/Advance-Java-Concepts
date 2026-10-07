@@ -1,5 +1,7 @@
 package core;
 
+import java.sql.SQLException;
+
 public interface PracticeModule {
-    void run();
+    void run() throws SQLException;
 }
