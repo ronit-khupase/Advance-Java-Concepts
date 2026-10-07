@@ -126,3 +126,8 @@
 8. Generate binary numbers from 1 to N.
 9. Implement undo-redo functionality.
 10. Design a train coach insertion/removal system.
+
+
+# Next Topic
+
+Exception Handling
