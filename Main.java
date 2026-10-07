@@ -1,6 +1,7 @@
 import collections.*;
 import exceptionhandling.ExceptionHandlingQuestions;
 import lambda.LambdaPractice;
+import streams.StreamClass;
 
 void main() {
     ArrayListClass arrayListClass = new ArrayListClass();
@@ -29,4 +30,7 @@ void main() {
 
     LambdaPractice lambdaPractice = new LambdaPractice();
     lambdaPractice.solutions();
+
+    StreamClass streamClass = new StreamClass();
+    streamClass.solutions();
 }
